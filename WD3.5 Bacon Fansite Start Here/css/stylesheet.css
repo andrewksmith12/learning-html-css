@@ -1,0 +1,32 @@
+/* tag selectors */
+body{
+    background-color:blue
+}
+h1{
+    font-size: 20pt;
+    color:red;
+}
+
+/* class selectors- Items can have more than one class */
+
+.good{
+    background-color:green;
+}
+.bad{
+    background-color:red;
+}
+.circular{
+    border-radius: 100%;
+}
+
+img:hover{
+    background-color:gold;
+}
+
+/* ID Selectors */
+#heading{
+    color:green
+}
+ /* You can only have a single isntance of an ID name in HTML.  */
+
+

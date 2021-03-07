@@ -1,0 +1,2 @@
+1em = 16px  100% is 16px.     em and % are dynamically sized, px are not.   rem overrides inhereted font sizes. 
+Clear is the anti-float- it makes sure the block isn't wrapped around anything

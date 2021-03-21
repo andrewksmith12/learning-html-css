@@ -1,59 +1,73 @@
-h1{
+/* Headings / Text Formatting / Generic Styles */
+h1,h2,h3,h4,h5{
     font-family: 'Montserrat', sans-serif;
     font-weight:800;
-    color:white;
+}
+h1{
     font-size: 3.5rem;
 }
-h3{
-    font-family: 'Montserrat', sans-serif;
-    font-weight:600;
+
+h2{
+    line-height:1.5;
+    font-size: 3rem;
 }
 
 body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    text-align:center;
 }
 
+.red-section{
+    background-color: #ff4c68;
+    color: white;
+}
+.white-section{
+    background-color: #ffffff;
+    color:black;
+}
+.orange-section{
+    background-color: #ef8172;
+    color:white;
+}
+
+/* Navbar */
 .navbar{
     padding: 0 0 2% 0;
-
 }
-
 .navbar-brand{
     font-family: 'Ubuntu', sans-serif;
     font-size: 2.5rem;
 }
-
 .nav-item{
     padding:0 25px;
 }
-.container-fluid{
+.navbar-container{
     padding:3%;
 }
 
 
+/* Title Splash */
 #title{
-    background-color:#ff4c68;
+    text-align: left;
 }
 .iphone{
     transform:rotate(25deg);
     width: 50%;
     position:absolute;
 }
-
 .splashRow{
     margin:5% 0;
 }
-
-.download-buttons{
+.download-buttons-splash{
     margin: 5% 3% 5% 0;
 }
 
+
+/* Features Section */
 #features{
-    text-align:center;
     margin: 0 auto;
     padding:4% 0;
-    background-color: white;
     position:relative;
     z-index:1;
 }
@@ -63,27 +77,21 @@ body{
     font-size:4em;
     padding-bottom:2%;  
 }
+
 .fa-heart:hover, .fa-bullseye:hover, .fa-check-circle:hover{
     color:#ff4c68;
 }
-.padding27{
+
+.features-row{
     padding:2% 7%;
 }
+
 /* Testimonial Section */
 #testimonials{
     padding: 7% 15%;
-    text-align:center;
-    background-color: #ef8172;
-    color:white;
 }
 .carousel-item{
-    padding: 7% 15%;
-}
-h2{
-    font-family: 'Montserrat', sans-serif;
-    font-weight:800;
-    line-height:1.5;
-    font-size: 3rem;
+    padding: 7% 10%;
 }
 
 .testimonial-image{
@@ -94,8 +102,6 @@ h2{
 
 /* Cred Section */
 #press{
-    background-color: #ef8172;
-    text-align:center;
     padding-bottom:3%;
 }
 .press-logo{
@@ -103,12 +109,18 @@ h2{
     margin:20px 20px;
 }
 
+/* Pricing Section */
+
 #pricing{
     padding:100px;
-    text-align:center;
+    
 }
 .pricing-col{
     padding:3%;
+}
+
+.pricing-title{
+    font-size: 1.5rem;
 }
 
 @media (max-width:1028px){
@@ -121,17 +133,15 @@ h2{
     }
 }
 
+/* Call to Action Section */
+
 #cta{
-    text-align:center;
-    background-color: #ff4c68;
-    color:#ffffff;
     padding:10% 0;
 }
 
 .cta-text{
     font-family: 'Montserrat', sans-serif;
     font-weight:800;
-    color:white;
     font-size: 2.5rem;
 }
 
